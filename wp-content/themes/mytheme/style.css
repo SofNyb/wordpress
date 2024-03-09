@@ -26,14 +26,35 @@ body {
 }
 
 header,
-.foot {
-  background: yellow;
+footer {
+  background: darkgrey;
   color: #fff;
   text-align: center;
   padding: 20px 0;
 }
 
-a {
-  color: #333;
+nav {
+  padding: 1rem;
+}
+
+nav div {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: white;
   text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a {
+  transition: color 0.3s ease;
 }
