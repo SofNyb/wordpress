@@ -10,9 +10,9 @@
     <header>
         <nav>
             <div>
-                <a class="nav-item" href="#">Forside</a>
-                <a class="nav-item" href="#">Om mig</a>
-                <a class="nav-item" href="#">Kontakt</a>
+                <a class="nav-item" href="http:localhost:8000/forside">Forside</a>
+                <a class="nav-item" href="http://localhost:8000/om-mig/">Om mig</a>
+                <a class="nav-item" href="http://localhost:8000/kontakt-mig/">Kontakt</a>
             </div>
         </nav>
         <h1><?php bloginfo('name'); ?></h1>
